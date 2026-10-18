@@ -1,1 +1,2 @@
 Tekst z gałęzi test
+Tekst z gałęzi test_2
