@@ -44,7 +44,8 @@ class Brewery:
 
     def __str__(self) -> str:
         return (f"{self.name} ({self.brewery_type})\n"
-                f"  adres: {self.street}, {self.postal_code} {self.city}, {self.state_province}, {self.country}\n"
+                f"  adres: {self.street}, {self.postal_code} {self.city}, "
+                f"{self.state_province}, {self.country}\n"
                 f"  tel: {self.phone}, www: {self.website_url}")
 
 

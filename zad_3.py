@@ -12,7 +12,9 @@ class House(Property):
         self.plot = plot
 
     def __str__(self):
-        return f"Dom: {self.address}, {self.area} m2, pokoje: {self.rooms}, działka: {self.plot} m2, cena: {self.price} zł"
+        return (f"Dom: {self.address}, {self.area} m2, "
+                f"pokoje: {self.rooms}, działka: {self.plot} m2, "
+                f"cena: {self.price} zł")
 
 
 class Flat(Property):
@@ -21,7 +23,9 @@ class Flat(Property):
         self.floor = floor
 
     def __str__(self):
-        return f"Mieszkanie: {self.address}, {self.area} m2, pokoje: {self.rooms}, piętro: {self.floor}, cena: {self.price} zł"
+        return (f"Mieszkanie: {self.address}, {self.area} m2, "
+                f"pokoje: {self.rooms}, piętro: {self.floor}, "
+                f"cena: {self.price} zł")
 
 
 if __name__ == "__main__":
