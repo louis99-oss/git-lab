@@ -7,5 +7,7 @@ def polacz_i_potegi(lista1: list, lista2: list) -> list:
 wynik = polacz_i_potegi([1, 2, 3], [3, 4, 2])
 print(wynik)   # [1, 8, 27, 64]
 # - lista1 + lista2 skleja listy.
-# - set to zbiór, który z definicji nie ma powtórzeń. Zamiana list → set → list usuwa duplikaty. Zbiór nie gwarantuje kolejności, więc jeśli chcesz mieć posortowany wynik, użyj sorted(set(polaczona)).
+# - set to zbiór, który z definicji nie ma powtórzeń. Zamiana
+#   list → set → list usuwa duplikaty. Zbiór nie gwarantuje kolejności,
+#   więc jeśli chcesz mieć posortowany wynik, użyj sorted(set(polaczona)).
 # - ** to potęgowanie: 2 ** 3 == 8.
